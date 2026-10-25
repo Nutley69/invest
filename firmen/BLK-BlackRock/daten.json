@@ -1,0 +1,1786 @@
+{
+ "firma": {
+  "name": "BlackRock, Inc.",
+  "ticker": "BLK",
+  "boerse": "NYSE",
+  "ordner": "BLK-BlackRock",
+  "typ": "Langfrist-Kandidat",
+  "stand": "2026-10-25",
+  "kennzahlen": [
+   {
+    "k": "Kurs (Eröffnung Fr. 23.10.)",
+    "v": "1’137 USD",
+    "hinweis": "Quelle MarketBeat; aktueller Schlusskurs nicht geprüft"
+   },
+   {
+    "k": "AUM 30.09.2026",
+    "v": "15,49 Bio. USD"
+   },
+   {
+    "k": "EPS Q3 (bereinigt)",
+    "v": "15,93 USD",
+    "hinweis": "Konsens ca. 14,3 USD; GAAP 10,57 USD"
+   },
+   {
+    "k": "Umsatz Q3",
+    "v": "7,75 Mrd. USD",
+    "hinweis": "Konsens ca. 7,4 Mrd. USD"
+   },
+   {
+    "k": "Dividende",
+    "v": "5,73 USD / Quartal"
+   },
+   {
+    "k": "KGV",
+    "v": "20,7",
+    "hinweis": "MarketBeat"
+   },
+   {
+    "k": "Analysten",
+    "v": "Moderate Buy",
+    "hinweis": "Ø Kursziel ca. 1’337 USD (MarketBeat 23.10.)"
+   }
+  ],
+  "termine": [
+   {
+    "s": "2026-10-14",
+    "d": "14.10.2026",
+    "art": "Quartal",
+    "status": "bestätigt",
+    "t": "Q3-2026-Zahlen veröffentlicht.",
+    "ergebnis": "Bereinigter Gewinn je Aktie 15,93 USD (Konsens ca. 14,32), Umsatz 7,75 Mrd. USD (Konsens ca. 7,4)."
+   },
+   {
+    "s": "2026-11-07",
+    "d": "Nov 2026 (erwartet)",
+    "art": "Dividende",
+    "status": "erwartet",
+    "t": "Dividendenerklärung Q4. Vorjahr: 7.11.2025 (5,21 USD). Nicht bestätigt."
+   },
+   {
+    "s": "2027-01-15",
+    "d": "Mitte Jan 2027 (erwartet)",
+    "art": "Jahr",
+    "status": "erwartet",
+    "t": "Q4- und Jahreszahlen 2026. Vorjahr 15. Januar. Termin noch nicht angekündigt."
+   },
+   {
+    "s": "2027-05-19",
+    "d": "Mai 2027 (erwartet)",
+    "art": "HV",
+    "status": "erwartet",
+    "t": "Hauptversammlung. 2026 war am 19.05."
+   }
+  ]
+ },
+ "knoten": [
+  {
+   "id": "blk",
+   "name": "BlackRock (BLK)",
+   "kat": "firma",
+   "w": 6,
+   "text": "Weltgrösster Vermögensverwalter. Verdient vor allem Gebühren auf verwaltetes Vermögen (iShares-ETFs, aktive und private Anlagen) und mit der Software Aladdin. Q3 2026: AUM 15,5 Bio. USD, Umsatz 7,75 Mrd. USD, bereinigter Gewinn je Aktie 15,93 USD.",
+   "betrag": "15,5 Bio. USD AUM",
+   "datum": "30.09.2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Q3-2026 Earnings Release (Firma, 14.10.2026)",
+     "url": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q3/BLK-3Q26-Earnings-Release.pdf"
+    },
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "vanguard",
+   "name": "Vanguard",
+   "kat": "doppelt",
+   "w": 4,
+   "text": "Grösster institutioneller Aktionär (ca. 8,6 % per Feb 2025 laut Drittseite; ein 13F-Auszug Q1 2026 nennt zwei Vanguard-Einheiten mit zusammen ca. 8 %). Zugleich der grösste Konkurrent bei Index-Produkten.",
+   "betrag": "ca. 8,6 % (Feb 2025)",
+   "datum": "Feb 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ],
+   "entity": "vanguard"
+  },
+  {
+   "id": "statestreet",
+   "name": "State Street",
+   "kat": "doppelt",
+   "w": 3,
+   "text": "Aktionär mit ca. 4 % und zugleich Konkurrent bei ETFs und Indexfonds.",
+   "betrag": "ca. 4,1 %",
+   "datum": "Q1 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ],
+   "entity": "statestreet"
+  },
+  {
+   "id": "temasek",
+   "name": "Temasek (Singapur)",
+   "kat": "eigentuemer",
+   "w": 3,
+   "text": "Staatsfonds, ca. 3,3 bis 3,4 % der BlackRock-Aktien. Sitzt laut Berichten zugleich mit im Käuferkreis von Aligned Data Centers.",
+   "betrag": "ca. 3,3 %",
+   "datum": "Q1 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    },
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "capitalr",
+   "name": "Capital Research Global Investors",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Laut einer Drittseite ca. 3 % (13F Q1 2026). Die Seite hat unklare Nenner; bitte in den SEC-13F-Daten prüfen.",
+   "betrag": "ca. 3 %",
+   "datum": "Q1 2026",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "id": "geode",
+   "name": "Geode Capital",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Indexverwalter (Fidelity-nah), ca. 2,1 bis 2,3 %.",
+   "betrag": "ca. 2,1 bis 2,3 %",
+   "datum": "Q1 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ],
+   "entity": "geode"
+  },
+  {
+   "id": "insider",
+   "name": "Insider (Fink, Wagner, Kapito u. a.)",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Alle Insider zusammen ca. 2,8 % (Feb 2025). Fink 520’124 Aktien, Wagner 429’362, Kapito 210’104. Institutionen insgesamt rund 81 %.",
+   "betrag": "ca. 2,8 %",
+   "datum": "Feb 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "MarketBeat, 23.10.2026",
+     "url": "https://www.marketbeat.com/instant-alerts/filing-blackrock-blk-stock-sold-by-axxcess-wealth-management-llc-2026-10-23/"
+    }
+   ]
+  },
+  {
+   "id": "fink",
+   "name": "Larry Fink",
+   "kat": "management",
+   "w": 4,
+   "text": "Mitgründer, CEO und Chairman. Leitet die AI Infrastructure Partnership. Spricht in der Q3-Telefonkonferenz von Kapitalknappheit und einem Investitionsbedarf von 7 bis 9 Bio. USD in den USA (seine Schätzung, keine Prognose der Firma).",
+   "betrag": "",
+   "datum": "2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    },
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "kapito",
+   "name": "Rob Kapito",
+   "kat": "management",
+   "w": 3,
+   "text": "Präsident, Mitgründer, führt das Tagesgeschäft; äusserte sich in der Q3-Telefonkonferenz zu Festverzinslichen.",
+   "betrag": "",
+   "datum": "2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "small",
+   "name": "Martin Small",
+   "kat": "management",
+   "w": 2,
+   "text": "CFO (Quelle von 2022, aktuelle Besetzung nicht gegengeprüft).",
+   "betrag": "",
+   "datum": "2022",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "ThinkAdvisor 2022: BlackRock nennt neuen CFO",
+     "url": "https://thinkadvisor.com/2022/10/03/blackrock-taps-u-s-wealth-chief-as-next-cfo"
+    }
+   ]
+  },
+  {
+   "id": "gip",
+   "name": "Global Infrastructure Partners (GIP)",
+   "kat": "zukauf",
+   "w": 4,
+   "text": "Infrastruktur-Investor, abgeschlossen Oktober 2024, brachte rund 70 Mrd. USD AUM. Der Kaufpreis steht im 10-K-Auszug nicht; Medien nannten rund 12,5 Mrd. USD (von mir nicht geprüft).",
+   "betrag": "AUM +70 Mrd. USD",
+   "datum": "Okt 2024",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "hpsn",
+   "name": "HPS Investment Partners",
+   "kat": "zukauf",
+   "w": 5,
+   "text": "Private-Credit-Manager. Kauf rund 12 Mrd. USD fast ganz in Aktien, abgeschlossen am 1. Juli 2025, brachte 118 Mrd. USD zahlende AUM. Im ersten vollen Jahr 25 Mrd. USD Private-Credit-Mittel eingesammelt.",
+   "betrag": "ca. 12 Mrd. USD (Aktien)",
+   "datum": "01.07.2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Wealth Management: HPS-Übernahme, 12 Mrd. USD in Aktien",
+     "url": "https://www.wealthmanagement.com/alternative-investments/blackrock-buys-credit-firm-hps-12-billion-all-stock-deal"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "preqin",
+   "name": "Preqin",
+   "kat": "zukauf",
+   "w": 3,
+   "text": "Datenanbieter für private Märkte, März 2025 für 2,5 Mrd. GBP (ca. 3,2 Mrd. USD) in bar gekauft. Teil der Technologie-Sparte.",
+   "betrag": "2,5 Mrd. GBP bar",
+   "datum": "Mär 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "elmtree",
+   "name": "ElmTree Funds",
+   "kat": "zukauf",
+   "w": 1,
+   "text": "Immobilienfonds-Manager, September 2025, 3 Mrd. USD AUM. Preis nicht genannt.",
+   "betrag": "AUM 3 Mrd. USD",
+   "datum": "Sep 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "kreos",
+   "name": "Kreos Capital",
+   "kat": "zukauf",
+   "w": 1,
+   "text": "Venture-Debt-Manager, August 2023.",
+   "betrag": "",
+   "datum": "Aug 2023",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "spider",
+   "name": "SpiderRock",
+   "kat": "zukauf",
+   "w": 1,
+   "text": "Optionen-Technologie, Mai 2024.",
+   "betrag": "",
+   "datum": "Mai 2024",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "aperio",
+   "name": "Aperio",
+   "kat": "zukauf",
+   "w": 1,
+   "text": "Steuer-optimierte Indexportfolios, Februar 2021.",
+   "betrag": "",
+   "datum": "Feb 2021",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "humana",
+   "name": "Humana CenterWell Kliniken",
+   "kat": "zukauf",
+   "w": 2,
+   "text": "HPS bildet mit Humana ein Gemeinschaftsunternehmen für knapp 150 CenterWell-Praxen. BlackRock übernimmt eine bestehende Beteiligung (ca. 2,8 Mrd. USD) und wird Mehrheitseigner. Nur eine Quelle.",
+   "betrag": "ca. 2,8 Mrd. USD",
+   "datum": "Okt 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Tradingpedia, 14.10.2026",
+     "url": "https://www.tradingpedia.com/2026/10/14/blackrock-jumps-on-q3-beat-private-markets-growth/"
+    }
+   ]
+  },
+  {
+   "id": "aip",
+   "name": "AI Infrastructure Partnership",
+   "kat": "konsortium",
+   "w": 4,
+   "text": "Investorenbündnis für KI-Rechenzentren und Energie, geführt von BlackRock/GIP, Fink ist Vorsitzender.",
+   "betrag": "",
+   "datum": "2025 bis 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "aligned",
+   "name": "Aligned Data Centers",
+   "kat": "konsortium",
+   "w": 4,
+   "text": "Rechenzentrumsbetreiber, über 5 GW Kapazität an rund 50 Standorten. Kaufpreis rund 40 Mrd. USD (Unternehmenswert), angekündigt 15.10.2025, laut Q3-Telefonkonferenz 2026 abgeschlossen.",
+   "betrag": "ca. 40 Mrd. USD",
+   "datum": "15.10.2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "macquarie",
+   "name": "Macquarie Asset Management",
+   "kat": "konsortium",
+   "w": 2,
+   "text": "Verkäufer von Aligned, seit 2018 Eigentümer.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "msft",
+   "name": "Microsoft",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "Partner im AI Infrastructure Partnership.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "nvidia",
+   "name": "Nvidia",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "Partner im AI Infrastructure Partnership.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "xai",
+   "name": "xAI",
+   "kat": "konsortium",
+   "w": 2,
+   "text": "Partner im AI Infrastructure Partnership.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "mgx",
+   "name": "MGX (Abu Dhabi)",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "Staatsnaher KI-Investor, Mitglied der Partnerschaft.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "kia",
+   "name": "Kuwait Investment Authority",
+   "kat": "konsortium",
+   "w": 2,
+   "text": "Teil der Käufergruppe von Aligned.",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Meta (Texas-Rechenzentrum)",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "BlackRock finanziert ein geplantes Meta-Rechenzentrum in Texas (ca. 14 Mrd. USD) mit GIP-Eigenkapital und privater HPS-Finanzierung.",
+   "betrag": "ca. 14 Mrd. USD",
+   "datum": "Q3 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "securitize",
+   "name": "Securitize",
+   "kat": "beteiligung",
+   "w": 2,
+   "text": "Minderheitsbeteiligung. Zusammen mit Circle trug sie 164 Mio. USD nicht-operative Gewinne zu Q3 2026 bei.",
+   "betrag": "",
+   "datum": "2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "circle",
+   "name": "Circle",
+   "kat": "beteiligung",
+   "w": 2,
+   "text": "Minderheitsbeteiligung (Stablecoin-Emittent), siehe Securitize.",
+   "betrag": "",
+   "datum": "2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "minor",
+   "name": "Weitere Minderheitsbeteiligungen",
+   "kat": "beteiligung",
+   "w": 2,
+   "text": "Viridium, Generation Life, Upvest, Avaloq, Human Interest, Clarity AI, Envestnet, Acorns, Scalable Capital, iCapital (Beträge im 10-K-Auszug nicht genannt).",
+   "betrag": "",
+   "datum": "FY2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "ishares",
+   "name": "iShares ETFs",
+   "kat": "produkt",
+   "w": 5,
+   "text": "5,47 Bio. USD AUM (Dez 2025), 527 Mrd. USD Zufluss 2025. Q3 2026: ETF-Zuflüsse 134,5 Mrd. USD. Typisch 30 bis 40 % der Jahreszuflüsse im 4. Quartal.",
+   "betrag": "5,47 Bio. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "BlackRock Q3-2026 Earnings Release (Firma, 14.10.2026)",
+     "url": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q3/BLK-3Q26-Earnings-Release.pdf"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "aladdin",
+   "name": "Aladdin und Technologie",
+   "kat": "produkt",
+   "w": 4,
+   "text": "Software und Daten (Aladdin, eFront, Preqin, Cachematrix). 2025: 2,0 Mrd. USD Umsatz (+24 %). Q3 2026: 588 Mio. USD (+14 %).",
+   "betrag": "588 Mio. USD (Q3)",
+   "datum": "Q3 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "BlackRock Q3-2026 Earnings Release (Firma, 14.10.2026)",
+     "url": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q3/BLK-3Q26-Earnings-Release.pdf"
+    }
+   ]
+  },
+  {
+   "id": "private",
+   "name": "Private Märkte",
+   "kat": "produkt",
+   "w": 4,
+   "text": "322,6 Mrd. USD AUM (Dez 2025), davon Private Credit 145,4 Mrd. und Infrastruktur 112,1 Mrd. Q3 2026: 15,3 Mrd. USD Zufluss.",
+   "betrag": "322,6 Mrd. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "BlackRock Q3-2026 Earnings Release (Firma, 14.10.2026)",
+     "url": "https://s24.q4cdn.com/856567660/files/doc_financials/2026/Q3/BLK-3Q26-Earnings-Release.pdf"
+    }
+   ]
+  },
+  {
+   "id": "cash",
+   "name": "Cash-Management",
+   "kat": "produkt",
+   "w": 2,
+   "text": "1,08 Bio. USD AUM (Dez 2025).",
+   "betrag": "1,08 Bio. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "digital",
+   "name": "Digitale Assets",
+   "kat": "produkt",
+   "w": 2,
+   "text": "78,4 Mrd. USD AUM (Dez 2025).",
+   "betrag": "78,4 Mrd. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "pension",
+   "name": "Pensionskassen",
+   "kat": "kunde",
+   "w": 4,
+   "text": "3,9 Bio. USD, 62 % des institutionellen Langfrist-Vermögens.",
+   "betrag": "3,9 Bio. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "insurer",
+   "name": "Versicherer",
+   "kat": "kunde",
+   "w": 2,
+   "text": "720 Mrd. USD, 12 % des institutionellen Langfrist-Vermögens.",
+   "betrag": "720 Mrd. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "official",
+   "name": "Staatliche Institutionen",
+   "kat": "kunde",
+   "w": 2,
+   "text": "348 Mrd. USD, 5 %.",
+   "betrag": "348 Mrd. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "retail",
+   "name": "Privatkunden und Vermittler",
+   "kat": "kunde",
+   "w": 3,
+   "text": "Retail macht 10 % des Langfrist-Vermögens aus (1,28 Bio. USD); Vertrieb über Broker, Banken, Berater. Regionen: Amerika 68 %, EMEA 25 %, Asien-Pazifik 7 %.",
+   "betrag": "1,28 Bio. USD",
+   "datum": "Dez 2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "blackstone",
+   "name": "Blackstone",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Private-Markets-Konkurrent; erhöhte im März 2026 selbst sein Rücknahmelimit von 5 auf 7 %.",
+   "betrag": "",
+   "datum": "Mär 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "id": "blueowl",
+   "name": "Blue Owl",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Private-Credit-Konkurrent; stellte bei einem Fonds von Tender-Offers auf Ausschüttungen um.",
+   "betrag": "",
+   "datum": "Mär 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "id": "fidelity",
+   "name": "Fidelity",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Grosser Anbieter von Fonds und ETFs (allgemein bekannt, hier nicht quellengeprüft; das 10-K nennt keine Namen).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "jpm",
+   "name": "JPMorgan Asset Management",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Grosser Anbieter (allgemein bekannt, nicht quellengeprüft).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ],
+   "entity": "jpm"
+  },
+  {
+   "id": "amundi",
+   "name": "Amundi",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Europäischer ETF- und Fondsanbieter (allgemein bekannt, nicht quellengeprüft).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "r_hps",
+   "name": "HPS-Fonds: Rücknahmen begrenzt",
+   "kat": "risiko",
+   "w": 4,
+   "text": "Am 6. März 2026 begrenzte BlackRock Abhebungen beim HPS Corporate Lending Fund (ca. 26 Mrd. USD). Anträge ca. 1,2 Mrd. USD (9,3 % des Fondsvermögens), ausgezahlt 620 Mio. USD (5-%-Schwelle). Aktie fiel zeitweise. In Q3 2026 steht laut Management noch eine Warteschlange in Evergreen-Fonds.",
+   "betrag": "1,2 Mrd. USD Anträge",
+   "datum": "06.03.2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "r_invoice",
+   "name": "Kredit mit gefälschten Rechnungen",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Laut WSJ-Bericht verlor eine von HPS geführte Kreditgruppe über 400 Mio. USD bei einem Darlehen, das auf angeblich gefälschten Rechnungen beruhte (aus zweiter Hand).",
+   "betrag": "> 400 Mio. USD",
+   "datum": "2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "id": "r_rates",
+   "name": "Zinsen am langen Ende",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Management nennt Zinsvolatilität am langen Ende und mögliche Kapitalknappheit als Risiko.",
+   "betrag": "",
+   "datum": "Q3 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "id": "r_reg",
+   "name": "Regulierung",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Genannt im 10-K: mögliche Einstufung als systemrelevant (SIFI), EU-Finanztransaktionssteuer, OECD-Mindeststeuer, EU-DORA-Aufsicht über Aladdin, T+1-Abwicklung.",
+   "betrag": "",
+   "datum": "FY2025",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "id": "r_markt",
+   "name": "Gebühren hängen an Märkten",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Die Einnahmen steigen und fallen mit dem verwalteten Vermögen. Ein Börsenrückgang senkt Gebühren, auch wenn Zuflüsse stark bleiben (Einordnung, keine Quelle).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": []
+  },
+  {
+   "id": "r_esg",
+   "name": "Politik und ESG",
+   "kat": "risiko",
+   "w": 2,
+   "text": "BlackRock verliess 2025 nach ESG-Rückzug die Texas-Boykottliste (nur Überschrift gelesen).",
+   "betrag": "",
+   "datum": "2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Bloomberg Law: BlackRock verlässt Texas-Boykottliste",
+     "url": "https://news.bloomberglaw.com/esg/blackrock-escapes-texas-oil-boycott-blacklist-after-esg-retreat"
+    }
+   ]
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart (Beteiligung über Fonds)",
+   "kat": "beteiligung",
+   "w": 2,
+   "text": "BlackRock hält über BlackRock Institutional Trust rund 209 Mio. Walmart-Aktien (ca. 2,62 %). Walmart hat ein eigenes Dossier in dieser Sammlung.",
+   "betrag": "2,62 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "dossier": "WMT"
+  }
+ ],
+ "kanten": [
+  {
+   "von": "vanguard",
+   "zu": "blk",
+   "label": "Aktionär (ca. 8,6 %) und Konkurrent",
+   "verl": "berichtet",
+   "betrag": "ca. 8,6 %",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "von": "statestreet",
+   "zu": "blk",
+   "label": "Aktionär (ca. 4 %) und Konkurrent",
+   "verl": "berichtet",
+   "betrag": "ca. 4 %",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "von": "temasek",
+   "zu": "blk",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "ca. 3,3 %",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "von": "capitalr",
+   "zu": "blk",
+   "label": "Aktionär",
+   "verl": "vermutet",
+   "betrag": "ca. 3 %",
+   "quellen": [
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "von": "geode",
+   "zu": "blk",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "ca. 2,2 %",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    },
+    {
+     "titel": "VCP Scanner: Institutionelle Halter, 13F Q1 2026",
+     "url": "https://www.vcpscanner.com/stock/blk/institutional-holders"
+    }
+   ]
+  },
+  {
+   "von": "insider",
+   "zu": "blk",
+   "label": "Insider-Anteil",
+   "verl": "berichtet",
+   "betrag": "ca. 2,8 %",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    }
+   ]
+  },
+  {
+   "von": "fink",
+   "zu": "blk",
+   "label": "CEO und Chairman",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "kapito",
+   "zu": "blk",
+   "label": "Präsident",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "small",
+   "zu": "blk",
+   "label": "CFO",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "ThinkAdvisor 2022: BlackRock nennt neuen CFO",
+     "url": "https://thinkadvisor.com/2022/10/03/blackrock-taps-u-s-wealth-chief-as-next-cfo"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "gip",
+   "label": "kaufte (Okt 2024)",
+   "verl": "belegt",
+   "betrag": "AUM +70 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "hpsn",
+   "label": "kaufte für rund 12 Mrd. USD in Aktien",
+   "verl": "belegt",
+   "betrag": "ca. 12 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Wealth Management: HPS-Übernahme, 12 Mrd. USD in Aktien",
+     "url": "https://www.wealthmanagement.com/alternative-investments/blackrock-buys-credit-firm-hps-12-billion-all-stock-deal"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "walmart",
+   "label": "Grossaktionär über Fonds und ETFs",
+   "verl": "berichtet",
+   "betrag": "2,62 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "preqin",
+   "label": "kaufte für 2,5 Mrd. GBP bar",
+   "verl": "belegt",
+   "betrag": "2,5 Mrd. GBP",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "elmtree",
+   "label": "kaufte",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "kreos",
+   "label": "kaufte",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "spider",
+   "label": "kaufte",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "aperio",
+   "label": "kaufte",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "hpsn",
+   "zu": "humana",
+   "label": "übernimmt Mehrheit am Kliniken-Joint-Venture",
+   "verl": "berichtet",
+   "betrag": "ca. 2,8 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Tradingpedia, 14.10.2026",
+     "url": "https://www.tradingpedia.com/2026/10/14/blackrock-jumps-on-q3-beat-private-markets-growth/"
+    }
+   ]
+  },
+  {
+   "von": "fink",
+   "zu": "aip",
+   "label": "Vorsitzender",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "gip",
+   "zu": "aip",
+   "label": "führt",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "aip",
+   "label": "Gründungsmitglied",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "msft",
+   "zu": "aip",
+   "label": "Mitglied",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "nvidia",
+   "zu": "aip",
+   "label": "Mitglied",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "xai",
+   "zu": "aip",
+   "label": "Mitglied",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "mgx",
+   "zu": "aip",
+   "label": "Mitglied",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "kia",
+   "zu": "aligned",
+   "label": "Mitkäufer",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "temasek",
+   "zu": "aligned",
+   "label": "Mitkäufer",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "aip",
+   "zu": "aligned",
+   "label": "kauft für ca. 40 Mrd. USD",
+   "verl": "belegt",
+   "betrag": "ca. 40 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "macquarie",
+   "zu": "aligned",
+   "label": "verkauft an Konsortium",
+   "verl": "berichtet",
+   "betrag": "ca. 40 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Yahoo Finance: Aligned-Data-Centers-Deal",
+     "url": "https://finance.yahoo.com/news/blackrock-nvidia-buy-aligned-data-113817104.html"
+    }
+   ]
+  },
+  {
+   "von": "gip",
+   "zu": "meta",
+   "label": "finanziert Rechenzentrum (Eigenkapital)",
+   "verl": "berichtet",
+   "betrag": "ca. 14 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "hpsn",
+   "zu": "meta",
+   "label": "finanziert Rechenzentrum (privater Kredit)",
+   "verl": "berichtet",
+   "betrag": "ca. 14 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "securitize",
+   "label": "hält Minderheit",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "circle",
+   "label": "hält Minderheit",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    },
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "minor",
+   "label": "hält Minderheiten",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "ishares",
+   "label": "Produkt",
+   "verl": "belegt",
+   "betrag": "5,47 Bio. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "aladdin",
+   "label": "Produkt",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "preqin",
+   "zu": "aladdin",
+   "label": "Teil der Technologie-Sparte",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "private",
+   "label": "Produkt",
+   "verl": "belegt",
+   "betrag": "322,6 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "hpsn",
+   "zu": "private",
+   "label": "Private Credit",
+   "verl": "belegt",
+   "betrag": "145,4 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "gip",
+   "zu": "private",
+   "label": "Infrastruktur",
+   "verl": "belegt",
+   "betrag": "112,1 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "cash",
+   "label": "Produkt",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blk",
+   "zu": "digital",
+   "label": "Produkt",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "pension",
+   "zu": "blk",
+   "label": "Kunde",
+   "verl": "belegt",
+   "betrag": "3,9 Bio. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "insurer",
+   "zu": "blk",
+   "label": "Kunde",
+   "verl": "belegt",
+   "betrag": "720 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "official",
+   "zu": "blk",
+   "label": "Kunde",
+   "verl": "belegt",
+   "betrag": "348 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "retail",
+   "zu": "ishares",
+   "label": "kauft ETFs",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "retail",
+   "zu": "blk",
+   "label": "Kunde",
+   "verl": "belegt",
+   "betrag": "1,28 Bio. USD",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "blackstone",
+   "zu": "private",
+   "label": "Konkurrent",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "von": "blueowl",
+   "zu": "private",
+   "label": "Konkurrent",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "von": "fidelity",
+   "zu": "ishares",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "jpm",
+   "zu": "ishares",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "amundi",
+   "zu": "ishares",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "vanguard",
+   "zu": "ishares",
+   "label": "Konkurrent",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    }
+   ]
+  },
+  {
+   "von": "statestreet",
+   "zu": "ishares",
+   "label": "Konkurrent",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Capital.com: Aktionäre von BlackRock (Stand Feb 2025)",
+     "url": "https://capital.com/en-int/analysis/blackrock-shareholder-who-owns-most-blk-stock"
+    }
+   ]
+  },
+  {
+   "von": "r_hps",
+   "zu": "hpsn",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "von": "r_invoice",
+   "zu": "hpsn",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "von": "r_hps",
+   "zu": "private",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "InvestmentNews: BlackRock begrenzt Rücknahmen beim HPS-Fonds (März 2026)",
+     "url": "https://www.investmentnews.com/alternatives/blackrock-curbs-redemptions-at-hps-private-credit-fund-as-investors-weigh-risks/265581"
+    }
+   ]
+  },
+  {
+   "von": "r_rates",
+   "zu": "private",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Q3-2026 Earnings Call Transcript (Motley Fool)",
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/"
+    }
+   ]
+  },
+  {
+   "von": "r_reg",
+   "zu": "blk",
+   "label": "betrifft",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "r_reg",
+   "zu": "aladdin",
+   "label": "betrifft (EU-DORA)",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "BlackRock Form 10-K FY2025 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526071966/blk-20251231.htm"
+    }
+   ]
+  },
+  {
+   "von": "r_markt",
+   "zu": "blk",
+   "label": "betrifft",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "r_esg",
+   "zu": "blk",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Bloomberg Law: BlackRock verlässt Texas-Boykottliste",
+     "url": "https://news.bloomberglaw.com/esg/blackrock-escapes-texas-oil-boycott-blacklist-after-esg-retreat"
+    }
+   ]
+  }
+ ]
+}

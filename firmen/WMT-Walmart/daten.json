@@ -1,0 +1,1513 @@
+{
+ "firma": {
+  "name": "Walmart Inc.",
+  "ticker": "WMT",
+  "boerse": "Nasdaq",
+  "stand": "2026-10-25",
+  "ordner": "WMT-Walmart",
+  "typ": "Langfrist-Kandidat",
+  "kennzahlen": [
+   {
+    "k": "Kurs (zuletzt Fr. 23.10.)",
+    "v": "119,89 USD",
+    "hinweis": "MarketBeat, tagsüber; Vortag Schluss 121,12 USD; Wochenschluss nicht geprüft"
+   },
+   {
+    "k": "Marktwert",
+    "v": "ca. 951 bis 961 Mrd. USD",
+    "hinweis": "1 Bio. USD wären rund 126 USD je Aktie"
+   },
+   {
+    "k": "EPS Q2 (bereinigt)",
+    "v": "0,81 USD",
+    "hinweis": "Konsens ca. 0,74 USD; GAAP 0,80 USD"
+   },
+   {
+    "k": "Umsatz Q2",
+    "v": "187,9 Mrd. USD",
+    "hinweis": "+5,9 %; Konsens ca. 186,6 bis 186,8 Mrd. USD"
+   },
+   {
+    "k": "Dividende",
+    "v": "0,2475 USD / Quartal",
+    "hinweis": "Jahresdividende 0,99 USD, Rendite ca. 0,8 %"
+   },
+   {
+    "k": "KGV",
+    "v": "ca. 43",
+    "hinweis": "MarketBeat 43,3; 24/7 Wall St. ca. 44"
+   },
+   {
+    "k": "Analysten",
+    "v": "Buy",
+    "hinweis": "3 Strong Buy, 33 Buy, 3 Hold; Ø Kursziel 132,41 USD (MarketBeat)"
+   }
+  ],
+  "termine": [
+   {
+    "s": "2026-08-20",
+    "d": "20.08.2026",
+    "art": "Quartal",
+    "status": "bestätigt",
+    "t": "Q2-Zahlen (Geschäftsjahr 2027) veröffentlicht.",
+    "ergebnis": "Bereinigter Gewinn je Aktie 0,81 USD (Konsens ca. 0,74), Umsatz 187,9 Mrd. USD (+5,9 %)."
+   },
+   {
+    "s": "2026-11-19",
+    "d": "19.11.2026, 07:00",
+    "art": "Quartal",
+    "status": "laut Datenseite",
+    "t": "Q3-Zahlen (Geschäftsjahr 2027). Laut MarketScreener; Zeitzone nicht angegeben, vermutlich US-Ostküste (in der Schweiz ca. 13:00). Prognose Q3: bereinigter Gewinn je Aktie 0,62 bis 0,64 USD."
+   },
+   {
+    "s": "2026-12-11",
+    "d": "11.12.2026",
+    "art": "Dividende",
+    "status": "laut Datenseite",
+    "t": "Ex-Dividenden-Tag, 0,2475 USD je Aktie (MarketScreener). Zahltag nicht angegeben."
+   },
+   {
+    "s": "2027-02-18",
+    "d": "18.02.2027, 07:00",
+    "art": "Jahr",
+    "status": "laut Datenseite",
+    "t": "Q4- und Jahreszahlen Geschäftsjahr 2027 (MarketScreener, unbestätigt)."
+   },
+   {
+    "s": "2027-06-04",
+    "d": "Juni 2027 (erwartet)",
+    "art": "HV",
+    "status": "erwartet",
+    "t": "Hauptversammlung. 2026 war am 04.06."
+   }
+  ]
+ },
+ "knoten": [
+  {
+   "id": "wmt",
+   "name": "Walmart (WMT)",
+   "kat": "firma",
+   "w": 6,
+   "text": "Grösster Einzelhändler der Welt nach Umsatz. Geschäftsjahr bis 31.01.2026: 713,2 Mrd. USD Gesamtumsatz, über 10’900 Läden in 19 Ländern, rund 280 Mio. Kunden pro Woche, rund 2,1 Mio. Mitarbeitende. Wächst zunehmend über Onlinehandel, Werbung und Mitgliedschaften. Aktie an der Nasdaq.",
+   "betrag": "713,2 Mrd. USD Umsatz",
+   "datum": "GJ 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    },
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "waltonE",
+   "name": "Walton Enterprises LLC",
+   "kat": "eigentuemer",
+   "w": 5,
+   "text": "Familien-Holding der Waltons, hält rund 3,00 Mrd. Aktien.",
+   "betrag": "37,63 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "id": "waltonT",
+   "name": "Walton Family Holdings Trust",
+   "kat": "eigentuemer",
+   "w": 4,
+   "text": "Zweites Familienvehikel mit rund 552 Mio. Aktien. Zusammen halten die Waltons rund 44,6 %.",
+   "betrag": "6,92 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "id": "vanguard",
+   "name": "Vanguard",
+   "kat": "eigentuemer",
+   "w": 3,
+   "text": "Grösster institutioneller Aktionär, rund 430 Mio. Aktien.",
+   "betrag": "5,39 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "entity": "vanguard"
+  },
+  {
+   "id": "blackrock",
+   "name": "BlackRock",
+   "kat": "eigentuemer",
+   "w": 3,
+   "text": "Hält über BlackRock Institutional Trust rund 209 Mio. Aktien. BlackRock hat ein eigenes Dossier in dieser Sammlung.",
+   "betrag": "2,62 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "dossier": "BLK"
+  },
+  {
+   "id": "statestreet",
+   "name": "State Street",
+   "kat": "eigentuemer",
+   "w": 3,
+   "text": "Rund 184 Mio. Aktien.",
+   "betrag": "2,30 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "entity": "statestreet"
+  },
+  {
+   "id": "geode",
+   "name": "Geode Capital",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Rund 94 Mio. Aktien.",
+   "betrag": "1,18 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "entity": "geode"
+  },
+  {
+   "id": "jpmam",
+   "name": "JPMorgan Asset Management",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Rund 71 Mio. Aktien.",
+   "betrag": "0,89 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ],
+   "entity": "jpm"
+  },
+  {
+   "id": "norges",
+   "name": "Norges Bank (Norwegen)",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Rund 64 Mio. Aktien.",
+   "betrag": "0,80 %",
+   "datum": "Aug 2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "id": "insider",
+   "name": "Insider-Verkäufe",
+   "kat": "eigentuemer",
+   "w": 2,
+   "text": "Laut MarketBeat verkauften Führungskräfte im letzten Quartal 102’244 Aktien für rund 11,1 Mio. USD (z. B. Daniel Danker: 50’644 Aktien zu 105,35 USD am 26.08.; Daniel Bartlett: 3’990 Aktien am 01.10.), alle über vorab festgelegte Pläne (10b5-1). Verkäufe der Familie Walton werden nicht erwähnt.",
+   "betrag": "ca. 11,1 Mio. USD",
+   "datum": "Q3 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "MarketBeat, 23.10.2026",
+     "url": "https://www.marketbeat.com/instant-alerts/price-walmart-nasdaq-wmt-stock-falls-1-heres-why-2026-10-23/"
+    }
+   ]
+  },
+  {
+   "id": "furner",
+   "name": "John Furner",
+   "kat": "management",
+   "w": 4,
+   "text": "President und CEO seit Februar 2026. Zuvor CEO von Walmart U.S. und Sam’s Club; seit 1993 im Konzern, begann als Stundenangestellter.",
+   "betrag": "",
+   "datum": "seit 02/2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart: Profil John Furner",
+     "url": "https://corporate.walmart.com/leadership/john-furner"
+    },
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    },
+    {
+     "titel": "Walmart: John Furner wird President und CEO (14.11.2025)",
+     "url": "https://corporate.walmart.com/news/2025/11/14/walmart-announces-john-furner-as-president-and-chief-executive-o0"
+    }
+   ]
+  },
+  {
+   "id": "mcmillon",
+   "name": "Doug McMillon",
+   "kat": "management",
+   "w": 2,
+   "text": "Bisheriger CEO, Rücktritt und Nachfolge am 14.11.2025 angekündigt, Wechsel zum Februar 2026.",
+   "betrag": "",
+   "datum": "2025 bis 2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Walmart: John Furner wird President und CEO (14.11.2025)",
+     "url": "https://corporate.walmart.com/news/2025/11/14/walmart-announces-john-furner-as-president-and-chief-executive-o0"
+    }
+   ]
+  },
+  {
+   "id": "rainey",
+   "name": "John David Rainey",
+   "kat": "management",
+   "w": 3,
+   "text": "EVP und Finanzchef (CFO).",
+   "betrag": "",
+   "datum": "2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "danker",
+   "name": "Daniel Danker",
+   "kat": "management",
+   "w": 2,
+   "text": "EVP für KI-Beschleunigung, Produkt und Design; sprach zur OpenAI-Partnerschaft.",
+   "betrag": "",
+   "datum": "03/2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "id": "penner",
+   "name": "Greg Penner",
+   "kat": "management",
+   "w": 2,
+   "text": "Verwaltungsratsvorsitzender (allgemein bekannt, hier nicht quellengeprüft; Verwaltungsrat nicht ausgewertet).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": []
+  },
+  {
+   "id": "flipkart",
+   "name": "Flipkart (Indien)",
+   "kat": "zukauf",
+   "w": 5,
+   "text": "2018 Kauf von 77 % für rund 16 Mrd. USD; 2023 weitere ca. 3,5 Mrd. USD für zusätzliche Anteile (u. a. von Tiger Global). Treibt die Werbung im Ausland (Flipkart Ads). Die Verschiebung des Grossanlasses «Big Billion Days» von Q3 in Q4 bremst das Q3-Wachstum um über 100 Basispunkte. Heutiger Anteil nicht aus Primärquelle geprüft.",
+   "betrag": "ca. 16 Mrd. USD (2018)",
+   "datum": "2018 und 2023",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "The News Minute: Walmart schliesst Kauf von 77 % an Flipkart ab",
+     "url": "https://www.thenewsminute.com/article/it-s-deal-walmart-completes-acquisition-77pc-stake-flipkart-86857"
+    },
+    {
+     "titel": "TechCrunch 2023: Walmart gibt 3,5 Mrd. USD für höheren Flipkart-Anteil aus",
+     "url": "https://techcrunch.com/2023/09/02/walmart-has-spent-3-5-billion-this-year-to-increase-stake-in-flipkart"
+    },
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "phonepe",
+   "name": "PhonePe (Indien)",
+   "kat": "zukauf",
+   "w": 3,
+   "text": "Zahlungs-App in Indien; Walmart erwarb 2018 zusammen mit Flipkart eine Mehrheit (10-K).",
+   "betrag": "",
+   "datum": "2018",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "vizio",
+   "name": "Vizio",
+   "kat": "zukauf",
+   "w": 3,
+   "text": "Fernseher und Smart-TV-System. Kauf für 11,50 USD je Aktie in bar, rund 2,3 Mrd. USD, abgeschlossen im Dezember 2024. Soll das Werbegeschäft (Walmart Connect) stärken.",
+   "betrag": "ca. 2,3 Mrd. USD",
+   "datum": "12/2024",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Nasdaq: Walmart schliesst Vizio-Kauf ab",
+     "url": "https://www.nasdaq.com/articles/walmart-completes-23b-acquisition-vizio"
+    }
+   ]
+  },
+  {
+   "id": "walmex",
+   "name": "Walmex (Mexiko, Zentralamerika)",
+   "kat": "zukauf",
+   "w": 3,
+   "text": "Walmart hält die Mehrheit an der börsennotierten Tochter. Der Anteil steht im gelesenen 10-K-Auszug nicht; geläufig sind rund 70 % (nicht geprüft).",
+   "betrag": "ca. 70 % (ungeprüft)",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "symbotic",
+   "name": "Symbotic",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "Kaufte im Januar 2025 Walmarts Roboter- und Automationssparte (Advanced Systems and Robotics). Walmart verpflichtet sich zur Abnahme von 400 Abhol- und Liefer-Zentren, mit Option auf 200 weitere. Preis in der Quelle nicht genannt.",
+   "betrag": "400 Zentren (+200 Option)",
+   "datum": "01/2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "TipRanks: Symbotic und Walmart (28.01.2025)",
+     "url": "https://www.tipranks.com/news/company-announcements/symbotic-expands-market-with-walmart-automation-deal"
+    }
+   ]
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI (ChatGPT)",
+   "kat": "konsortium",
+   "w": 3,
+   "text": "Partnerschaft seit Oktober 2025 (Einkauf direkt in ChatGPT). Die Ergebnisse blieben unter den Erwartungen; im März 2026 plant Walmart, den eigenen KI-Assistenten Sparky in ChatGPT und Google Gemini einzubinden. Finanzielle Bedingungen nicht bekannt.",
+   "betrag": "",
+   "datum": "seit 10/2025",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "id": "gemini",
+   "name": "Google (Gemini)",
+   "kat": "konsortium",
+   "w": 2,
+   "text": "Geplantes Ziel für Walmarts Assistenten Sparky.",
+   "betrag": "",
+   "datum": "03/2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "id": "wmus",
+   "name": "Walmart U.S.",
+   "kat": "produkt",
+   "w": 5,
+   "text": "483,0 Mrd. USD (68 % des Nettoumsatzes), 4’611 Läden. Q2 FY27: 125,2 Mrd. USD (+3,5 %), Vergleichsumsatz ohne Treibstoff +2,6 %, operatives Ergebnis 8,12 Mrd. (+20,6 %).",
+   "betrag": "483,0 Mrd. USD",
+   "datum": "GJ 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    },
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "wmint",
+   "name": "Walmart International",
+   "kat": "produkt",
+   "w": 4,
+   "text": "130,4 Mrd. USD (19 %), 5’743 Läden in 18 Ländern. Q2: 35,2 Mrd. USD (+12,8 %, währungsbereinigt +7,9 %).",
+   "betrag": "130,4 Mrd. USD",
+   "datum": "GJ 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    },
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "sams",
+   "name": "Sam’s Club U.S.",
+   "kat": "produkt",
+   "w": 3,
+   "text": "93,0 Mrd. USD (13 %), 601 Clubs. Q2: 25,7 Mrd. USD (+8,8 %), Vergleichsumsatz +4,4 %, operatives Ergebnis +44,3 %.",
+   "betrag": "93,0 Mrd. USD",
+   "datum": "GJ 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    },
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "ecom",
+   "name": "eCommerce",
+   "kat": "produkt",
+   "w": 4,
+   "text": "Globaler Onlineumsatz Q2 +23 % (U.S. +24 %, International +19 %, Sam’s Club +26 %). Abholung oder Lieferung an über 8’400 Standorten.",
+   "betrag": "+23 % (Q2)",
+   "datum": "Q2 FY27",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    },
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "ads",
+   "name": "Werbung (Walmart Connect)",
+   "kat": "produkt",
+   "w": 4,
+   "text": "Globale Werbeeinnahmen Q2 +38 % (U.S. +38 %, International +20 %, getrieben von Flipkart Ads).",
+   "betrag": "+38 % (Q2)",
+   "datum": "Q2 FY27",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "member",
+   "name": "Mitgliedschaften",
+   "kat": "produkt",
+   "w": 2,
+   "text": "Mitgliedsgebühren global +17 % (Q2).",
+   "betrag": "+17 % (Q2)",
+   "datum": "Q2 FY27",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "kunden",
+   "name": "Privatkunden",
+   "kat": "kunde",
+   "w": 4,
+   "text": "Rund 280 Mio. Kunden pro Woche weltweit.",
+   "betrag": "280 Mio. pro Woche",
+   "datum": "GJ 2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "werbekunden",
+   "name": "Werbekunden (Markenhersteller)",
+   "kat": "kunde",
+   "w": 3,
+   "text": "Hersteller zahlen für Werbung bei Walmart; deshalb wächst die Werbung schneller als der Handel (Einordnung).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "pg",
+   "name": "Procter & Gamble",
+   "kat": "lieferant",
+   "w": 4,
+   "text": "Einer der grossen Konsumgüter-Lieferanten. Laut P&G-Geschäftsbericht entfallen rund 16 % von P&Gs Umsatz auf Walmart und Töchter (2024 bis 2026). Walmart selbst nennt im 10-K keine Lieferanten.",
+   "betrag": "16 % von P&G-Umsatz",
+   "datum": "FY2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Procter & Gamble Form 10-K FY2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000103/pg-20260630.htm"
+    },
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "grosslief",
+   "name": "Weitere Grosslieferanten",
+   "kat": "lieferant",
+   "w": 3,
+   "text": "PepsiCo, Coca-Cola, Nestlé, Unilever, Kraft Heinz u. a. gelten als grosse Lieferanten (allgemein bekannt, hier nicht quellengeprüft).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": []
+  },
+  {
+   "id": "asien",
+   "name": "Importe aus Asien",
+   "kat": "lieferant",
+   "w": 3,
+   "text": "Ein grosser Teil der Waren ausserhalb von Lebensmitteln wird importiert; deshalb sind Zölle für Walmart wichtig (Einordnung).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "kat": "konkurrent",
+   "w": 4,
+   "text": "Hauptkonkurrent im Onlinehandel; in Indien Gegner von Flipkart (berichtet).",
+   "betrag": "",
+   "datum": "",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "The News Minute: Walmart schliesst Kauf von 77 % an Flipkart ab",
+     "url": "https://www.thenewsminute.com/article/it-s-deal-walmart-completes-acquisition-77pc-stake-flipkart-86857"
+    }
+   ]
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "kat": "konkurrent",
+   "w": 3,
+   "text": "Konkurrent von Sam’s Club (allgemein bekannt, ungeprüft; das 10-K nennt keine Namen).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Konkurrent im Handel (ungeprüft).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "kroger",
+   "name": "Kroger",
+   "kat": "konkurrent",
+   "w": 2,
+   "text": "Konkurrent im Lebensmittelhandel (ungeprüft).",
+   "betrag": "",
+   "datum": "",
+   "verl": "vermutet",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "id": "r_val",
+   "name": "Hohe Bewertung",
+   "kat": "risiko",
+   "w": 4,
+   "text": "KGV rund 43 bis 44 bei erwartetem Umsatzwachstum von 4 bis 5 %. Die Aktie stieg im Oktober um rund 16,6 % (bester Monat seit 1999), laut 24/7 Wall St. vor allem durch Rotation aus KI-Werten in defensive Titel, ohne neue Firmennachricht.",
+   "betrag": "KGV ca. 43",
+   "datum": "10/2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "MarketBeat, 23.10.2026",
+     "url": "https://www.marketbeat.com/instant-alerts/price-walmart-nasdaq-wmt-stock-falls-1-heres-why-2026-10-23/"
+    },
+    {
+     "titel": "24/7 Wall St., 23.10.2026: bester Monat seit 1999",
+     "url": "https://247wallst.com/investing/2026/10/23/walmart-is-having-its-best-month-since-1999-and-is-4-from-1-trillion/"
+    }
+   ]
+  },
+  {
+   "id": "r_guid",
+   "name": "Vorsichtige Q3-Prognose",
+   "kat": "risiko",
+   "w": 4,
+   "text": "Am 20.08. fiel die Aktie um 9,2 % (114,30 auf 103,84 USD), obwohl Gewinn und Jahresprognose besser ausfielen. Auslöser war der Ausblick auf Q3: bereinigtes operatives Ergebnis nur +2 bis 4 %, Gewinn je Aktie 0,62 bis 0,64 USD.",
+   "betrag": "-9,2 % am 20.08.",
+   "datum": "20.08.2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    },
+    {
+     "titel": "Dataporium: Q2 FY27, Aktie fällt 9 %",
+     "url": "https://dataporium.tech/articles/walmart-fiscal-q2-2027-earnings-revenue-up-5-9-guidance-raised-shares-drop-9"
+    }
+   ]
+  },
+  {
+   "id": "r_tariff",
+   "name": "Zölle und Rückerstattungen",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Zollrückerstattungen steigerten im Q2 den Gewinn; Walmart will sie vorrangig in Preissenkungen stecken. Neue Zölle sind möglich.",
+   "betrag": "",
+   "datum": "Q2 FY27",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    },
+    {
+     "titel": "Motley Fool, 01.07.2026: Warum Walmart fiel",
+     "url": "https://www.fool.com/investing/2026/07/01/why-walmart-plunged-today/"
+    }
+   ]
+  },
+  {
+   "id": "r_cons",
+   "name": "Konsum und Preisdruck",
+   "kat": "risiko",
+   "w": 3,
+   "text": "Am 01.07. fiel die Aktie um rund 4,5 %, nachdem Cleveland Research ein langsameres Vergleichsumsatzwachstum und mögliche Preissenkungen zum Lagerabbau gemeldet hatte (zweite Hand).",
+   "betrag": "-4,5 % am 01.07.",
+   "datum": "01.07.2026",
+   "verl": "berichtet",
+   "quellen": [
+    {
+     "titel": "Motley Fool, 01.07.2026: Warum Walmart fiel",
+     "url": "https://www.fool.com/investing/2026/07/01/why-walmart-plunged-today/"
+    }
+   ]
+  },
+  {
+   "id": "r_flip",
+   "name": "Flipkart-Terminverschiebung",
+   "kat": "risiko",
+   "w": 2,
+   "text": "Der Grossanlass «Big Billion Days» fällt in Q4 statt Q3 und bremst das Q3-Umsatzwachstum um über 100 Basispunkte.",
+   "betrag": "> 100 Basispunkte",
+   "datum": "Q3 FY27",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "id": "r_reg",
+   "name": "Wettbewerbsrecht und Regulierung",
+   "kat": "risiko",
+   "w": 2,
+   "text": "Das 10-K nennt laufende kartellrechtliche Verfahren in Kanada, Mexiko und Indien.",
+   "betrag": "",
+   "datum": "FY2026",
+   "verl": "belegt",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  }
+ ],
+ "kanten": [
+  {
+   "von": "waltonE",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "37,63 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "waltonT",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "6,92 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "vanguard",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "5,39 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "blackrock",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "2,62 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "statestreet",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "2,30 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "geode",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "1,18 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "jpmam",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "0,89 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "norges",
+   "zu": "wmt",
+   "label": "Aktionär",
+   "verl": "berichtet",
+   "betrag": "0,80 %",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "insider",
+   "zu": "wmt",
+   "label": "verkauft Aktien (10b5-1-Pläne)",
+   "verl": "berichtet",
+   "betrag": "ca. 11,1 Mio. USD",
+   "quellen": [
+    {
+     "titel": "MarketBeat, 23.10.2026",
+     "url": "https://www.marketbeat.com/instant-alerts/price-walmart-nasdaq-wmt-stock-falls-1-heres-why-2026-10-23/"
+    }
+   ]
+  },
+  {
+   "von": "waltonE",
+   "zu": "waltonT",
+   "label": "gleiche Familie",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "TIKR: Wem gehört Walmart (Stand Aug 2025)",
+     "url": "https://www.tikr.com/blog/who-owns-walmart-tracking-walmarts-top-shareholders-and-recent-insider-trades"
+    }
+   ]
+  },
+  {
+   "von": "furner",
+   "zu": "wmt",
+   "label": "President und CEO",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "mcmillon",
+   "zu": "wmt",
+   "label": "war CEO bis Jan 2026",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart: John Furner wird President und CEO (14.11.2025)",
+     "url": "https://corporate.walmart.com/news/2025/11/14/walmart-announces-john-furner-as-president-and-chief-executive-o0"
+    }
+   ]
+  },
+  {
+   "von": "rainey",
+   "zu": "wmt",
+   "label": "CFO",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "danker",
+   "zu": "wmt",
+   "label": "EVP KI und Produkt",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "von": "penner",
+   "zu": "wmt",
+   "label": "Vorsitzender des Verwaltungsrats",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "furner",
+   "zu": "mcmillon",
+   "label": "Nachfolger",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart: John Furner wird President und CEO (14.11.2025)",
+     "url": "https://corporate.walmart.com/news/2025/11/14/walmart-announces-john-furner-as-president-and-chief-executive-o0"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "flipkart",
+   "label": "kaufte 77 % (2018), später mehr",
+   "verl": "berichtet",
+   "betrag": "ca. 16 Mrd. USD + 3,5 Mrd.",
+   "quellen": [
+    {
+     "titel": "The News Minute: Walmart schliesst Kauf von 77 % an Flipkart ab",
+     "url": "https://www.thenewsminute.com/article/it-s-deal-walmart-completes-acquisition-77pc-stake-flipkart-86857"
+    },
+    {
+     "titel": "TechCrunch 2023: Walmart gibt 3,5 Mrd. USD für höheren Flipkart-Anteil aus",
+     "url": "https://techcrunch.com/2023/09/02/walmart-has-spent-3-5-billion-this-year-to-increase-stake-in-flipkart"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "phonepe",
+   "label": "kaufte Mehrheit (2018)",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "vizio",
+   "label": "kaufte für 2,3 Mrd. USD bar",
+   "verl": "belegt",
+   "betrag": "ca. 2,3 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Nasdaq: Walmart schliesst Vizio-Kauf ab",
+     "url": "https://www.nasdaq.com/articles/walmart-completes-23b-acquisition-vizio"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "walmex",
+   "label": "Mehrheitsbeteiligung",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "flipkart",
+   "zu": "phonepe",
+   "label": "gleiche Kaufrunde 2018",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "symbotic",
+   "label": "verkaufte Robotik-Sparte",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "TipRanks: Symbotic und Walmart (28.01.2025)",
+     "url": "https://www.tipranks.com/news/company-announcements/symbotic-expands-market-with-walmart-automation-deal"
+    }
+   ]
+  },
+  {
+   "von": "symbotic",
+   "zu": "wmus",
+   "label": "liefert Automation für Abholzentren",
+   "verl": "berichtet",
+   "betrag": "400 Zentren",
+   "quellen": [
+    {
+     "titel": "TipRanks: Symbotic und Walmart (28.01.2025)",
+     "url": "https://www.tipranks.com/news/company-announcements/symbotic-expands-market-with-walmart-automation-deal"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "openai",
+   "label": "KI-Einkauf in ChatGPT",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "gemini",
+   "label": "Sparky geplant in Gemini",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "von": "openai",
+   "zu": "ecom",
+   "label": "zusätzlicher Verkaufskanal",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Hardware Retailing, 25.03.2026: Walmart und OpenAI",
+     "url": "https://hardwareretailing.com/walmart-continues-openai-partnership-shifts-shopping-experience/"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "wmus",
+   "label": "Segment",
+   "verl": "belegt",
+   "betrag": "483,0 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "wmint",
+   "label": "Segment",
+   "verl": "belegt",
+   "betrag": "130,4 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "sams",
+   "label": "Segment",
+   "verl": "belegt",
+   "betrag": "93,0 Mrd. USD",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "ecom",
+   "label": "Wachstumsfeld",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "ads",
+   "label": "Wachstumsfeld",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "wmt",
+   "zu": "member",
+   "label": "Wachstumsfeld",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "flipkart",
+   "zu": "wmint",
+   "label": "Teil von International",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "walmex",
+   "zu": "wmint",
+   "label": "Teil von International",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "vizio",
+   "zu": "ads",
+   "label": "stärkt Werbung",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Nasdaq: Walmart schliesst Vizio-Kauf ab",
+     "url": "https://www.nasdaq.com/articles/walmart-completes-23b-acquisition-vizio"
+    }
+   ]
+  },
+  {
+   "von": "flipkart",
+   "zu": "ads",
+   "label": "Flipkart Ads",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "kunden",
+   "zu": "wmus",
+   "label": "kauft ein",
+   "verl": "belegt",
+   "betrag": "280 Mio. pro Woche",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "kunden",
+   "zu": "member",
+   "label": "zahlt Gebühren",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "werbekunden",
+   "zu": "ads",
+   "label": "zahlt für Werbung",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "pg",
+   "zu": "wmus",
+   "label": "liefert Waren",
+   "verl": "belegt",
+   "betrag": "16 % von P&G-Umsatz",
+   "quellen": [
+    {
+     "titel": "Procter & Gamble Form 10-K FY2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000103/pg-20260630.htm"
+    }
+   ]
+  },
+  {
+   "von": "grosslief",
+   "zu": "wmus",
+   "label": "liefern Waren",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "asien",
+   "zu": "wmus",
+   "label": "liefern Importwaren",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  },
+  {
+   "von": "amazon",
+   "zu": "ecom",
+   "label": "Konkurrent",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "The News Minute: Walmart schliesst Kauf von 77 % an Flipkart ab",
+     "url": "https://www.thenewsminute.com/article/it-s-deal-walmart-completes-acquisition-77pc-stake-flipkart-86857"
+    }
+   ]
+  },
+  {
+   "von": "amazon",
+   "zu": "flipkart",
+   "label": "Konkurrent in Indien",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "The News Minute: Walmart schliesst Kauf von 77 % an Flipkart ab",
+     "url": "https://www.thenewsminute.com/article/it-s-deal-walmart-completes-acquisition-77pc-stake-flipkart-86857"
+    }
+   ]
+  },
+  {
+   "von": "costco",
+   "zu": "sams",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "target",
+   "zu": "wmus",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "kroger",
+   "zu": "wmus",
+   "label": "Konkurrent",
+   "verl": "vermutet",
+   "betrag": "",
+   "quellen": []
+  },
+  {
+   "von": "r_val",
+   "zu": "wmt",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "MarketBeat, 23.10.2026",
+     "url": "https://www.marketbeat.com/instant-alerts/price-walmart-nasdaq-wmt-stock-falls-1-heres-why-2026-10-23/"
+    },
+    {
+     "titel": "24/7 Wall St., 23.10.2026: bester Monat seit 1999",
+     "url": "https://247wallst.com/investing/2026/10/23/walmart-is-having-its-best-month-since-1999-and-is-4-from-1-trillion/"
+    }
+   ]
+  },
+  {
+   "von": "r_guid",
+   "zu": "wmt",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    },
+    {
+     "titel": "Dataporium: Q2 FY27, Aktie fällt 9 %",
+     "url": "https://dataporium.tech/articles/walmart-fiscal-q2-2027-earnings-revenue-up-5-9-guidance-raised-shares-drop-9"
+    }
+   ]
+  },
+  {
+   "von": "r_tariff",
+   "zu": "asien",
+   "label": "betrifft",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "r_tariff",
+   "zu": "wmus",
+   "label": "betrifft",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "r_cons",
+   "zu": "wmus",
+   "label": "betrifft",
+   "verl": "berichtet",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Motley Fool, 01.07.2026: Warum Walmart fiel",
+     "url": "https://www.fool.com/investing/2026/07/01/why-walmart-plunged-today/"
+    }
+   ]
+  },
+  {
+   "von": "r_flip",
+   "zu": "flipkart",
+   "label": "betrifft",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Q2-FY27-Mitteilung (8-K, 20.08.2026)",
+     "url": "https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000145/earningsreleasefy27q2.htm"
+    }
+   ]
+  },
+  {
+   "von": "r_reg",
+   "zu": "wmt",
+   "label": "betrifft",
+   "verl": "belegt",
+   "betrag": "",
+   "quellen": [
+    {
+     "titel": "Walmart Form 10-K Geschäftsjahr 2026 (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/104169/000010416926000055/wmt-20260131.htm"
+    }
+   ]
+  }
+ ]
+}

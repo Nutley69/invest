@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Invest-Zentrale</title>
+<style>
+:root{--bg:#0f1218;--panel:#171b24;--card:#1b202b;--line:#2a3140;--tx:#e6e9ef;--mut:#9aa3b5;--acc:#6ea8fe;--ok:#4fd1a5;--warn:#f2b84b;--bad:#f87171}
+@media (prefers-color-scheme: light){:root{--bg:#f4f5f8;--panel:#ffffff;--card:#ffffff;--line:#d9dde6;--tx:#1b2030;--mut:#5b6478;--acc:#2a5db0;--ok:#127a5a;--warn:#9a6500;--bad:#b42323}}
+:root[data-theme=dark]{--bg:#0f1218;--panel:#171b24;--card:#1b202b;--line:#2a3140;--tx:#e6e9ef;--mut:#9aa3b5;--acc:#6ea8fe;--ok:#4fd1a5;--warn:#f2b84b;--bad:#f87171}
+:root[data-theme=light]{--bg:#f4f5f8;--panel:#ffffff;--card:#ffffff;--line:#d9dde6;--tx:#1b2030;--mut:#5b6478;--acc:#2a5db0;--ok:#127a5a;--warn:#9a6500;--bad:#b42323}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--tx);font:15px/1.55 system-ui,"Segoe UI",Roboto,sans-serif;display:flex;flex-direction:column}
+a{color:var(--acc)}
+.top{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+.brand{font-weight:700;font-size:17px;letter-spacing:.01em}
+.brand small{font-weight:400;color:var(--mut);margin-left:8px;font-size:12px}
+.sp{flex:1}
+button,.btn{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer;font:inherit;text-decoration:none;display:inline-block}
+button:hover,.btn:hover{border-color:var(--acc)}
+.btn.pri{background:var(--acc);color:#fff;border-color:var(--acc)}
+#burger{display:none}
+.wrap{flex:1;display:flex;min-height:0}
+nav{width:230px;flex:none;border-right:1px solid var(--line);background:var(--panel);padding:12px;overflow:auto}
+nav h4{margin:14px 8px 6px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut)}
+nav h4:first-child{margin-top:2px}
+nav a{display:block;padding:7px 10px;border-radius:8px;color:var(--tx);text-decoration:none}
+nav a:hover{background:var(--bg)}
+nav a.on{background:var(--bg);box-shadow:inset 3px 0 0 var(--acc);font-weight:600}
+nav a small{color:var(--mut);margin-left:6px}
+nav .foot{margin:18px 8px 0;color:var(--mut);font-size:12px}
+main{flex:1;overflow:auto;padding:22px clamp(14px,3vw,36px) 60px;min-width:0}
+.page{max-width:1200px;margin:0 auto}
+h1{font-size:26px;margin:0 0 4px;line-height:1.2}
+h2{font-size:19px;margin:28px 0 10px}
+.sub{color:var(--mut);margin:0 0 16px}
+.chip{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:1px 10px;font-size:12px;color:var(--mut);margin-right:6px;background:var(--card)}
+.chip.t{color:var(--acc);border-color:var(--acc);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h3{margin:0 0 2px;font-size:17px}
+.kpis{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.kpi{border:1px solid var(--line);border-radius:8px;padding:4px 10px;background:var(--bg)}
+.kpi b{display:block;font-size:14px}
+.kpi span{color:var(--mut);font-size:11px}
+.next{color:var(--mut);font-size:13px;margin:8px 0 12px}
+.tw{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%}
+th,td{border-bottom:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);background:var(--panel)}
+td.num{text-align:right}
+tr.past td{opacity:.5}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:14px 0 18px;flex-wrap:wrap}
+.tabs a{padding:8px 14px;text-decoration:none;color:var(--mut);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs a.on{color:var(--tx);border-color:var(--acc);font-weight:600}
+.report{display:flex;gap:28px;align-items:flex-start}
+.report .doc{flex:1;min-width:0;max-width:880px}
+.report .toc{width:210px;flex:none;position:sticky;top:0;font-size:13px}
+.report .toc a{display:block;padding:3px 0;color:var(--mut);text-decoration:none}
+.report .toc a:hover{color:var(--acc)}
+.doc h1{display:none}
+.doc h2{border-bottom:1px solid var(--line);padding-bottom:4px}
+.doc ul{padding-left:22px}
+.doc code{background:var(--panel);padding:1px 5px;border-radius:4px}
+.doc pre{background:var(--panel);padding:12px;border-radius:8px;overflow:auto}
+.frame{width:100%;height:max(680px,90vh);min-height:520px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.note{border:1px solid var(--line);border-left:4px solid var(--acc);background:var(--card);padding:10px 14px;border-radius:8px;margin:14px 0;color:var(--mut)}
+.alert{border-left-color:var(--bad);color:var(--tx)}
+form.j{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+form.j label{font-size:12px;color:var(--mut);display:flex;flex-direction:column;gap:3px}
+form.j .wide{grid-column:1/-1}
+input,select,textarea{background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:inherit;width:100%}
+.chip.ok{color:var(--ok);border-color:var(--ok)}.chip.w{color:var(--warn);border-color:var(--warn)}
+.big{display:flex;gap:14px;align-items:center;flex-wrap:wrap;border:1px solid var(--acc);border-radius:12px;background:var(--card);padding:14px 18px;margin:0 0 18px}
+.big b{font-size:16px}.big .sp{flex:1;min-width:120px}
+tr.mon td{background:var(--panel);font-weight:600;color:var(--mut);text-transform:uppercase;font-size:12px;letter-spacing:.06em}
+.erg{display:block;color:var(--ok);font-size:13px;margin-top:2px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0 12px}.bar select{width:auto}
+button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.good{color:var(--ok)}.badc{color:var(--bad)}
+@media (max-width:900px){
+ #burger{display:inline-block}
+ nav{position:fixed;z-index:5;top:49px;bottom:0;left:0;transform:translateX(-100%);transition:transform .2s}
+ nav.open{transform:none;box-shadow:0 0 30px #0008}
+ .report{flex-direction:column}.report .toc{display:none}
+ .frame{height:70vh}
+}
+</style>
+</head>
+<body>
+<div class="top">
+  <button id="burger" aria-label="Menü">☰</button>
+  <div class="brand">Invest-Zentrale<small>Keine Anlageberatung</small></div>
+  <div class="sp"></div>
+  <button id="theme" title="Darstellung wechseln">Darstellung: automatisch</button>
+</div>
+<div class="wrap">
+  <nav id="nav"></nav>
+  <main id="main"><div class="page" id="view"></div></main>
+</div>
+<script>
+const SITE = /*SITE*/null;
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const F = SITE.firmen;
+const byT = Object.fromEntries(F.map(f => [f.ticker, f]));
+const today = new Date(); today.setHours(0,0,0,0);
+const days = s => Math.round((new Date(s + 'T00:00:00') - today) / 864e5);
+const fmt = s => s.split('-').reverse().join('.');
+const rel = (s, d) => { const n = days(s); const ca = /erwartet|ca\./i.test(d) ? 'ca. ' : ''; return n === 0 ? 'heute' : n > 0 ? `${ca}in ${n} Tagen` : `vor ${-n} Tagen`; };
+function store(k, v){ try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch(e) { return null; } }
+
+// Theme
+let theme = store('theme') || 'auto';
+const TL = {auto:'automatisch', dark:'dunkel', light:'hell'};
+function applyTheme(){
+  if (theme === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = theme;
+  $('#theme').textContent = 'Darstellung: ' + TL[theme];
+  document.querySelectorAll('iframe').forEach(f => f.contentWindow && f.contentWindow.postMessage({theme}, '*'));
+}
+$('#theme').onclick = () => { theme = {auto:'dark', dark:'light', light:'auto'}[theme]; store('theme', theme); applyTheme(); };
+$('#burger').onclick = () => $('#nav').classList.toggle('open');
+
+// Navigation
+function buildNav(route){
+  const a = (h, t, extra='') => `<a href="${h}" class="${route.startsWith(h) && (h !== '#/' || route === '#/') ? 'on' : ''}">${t}${extra}</a>`;
+  $('#nav').innerHTML = '<h4>Start</h4>' + a('#/', 'Übersicht') + a('#/termine', 'Berichtstermine') + a('#/netz', 'Gesamtnetz') +
+    '<h4>Firmen</h4>' + F.map(f => a('#/firma/' + f.ticker, esc(f.name.replace(/, Inc\.| Inc\./,'')), `<small>${esc(f.ticker)}</small>`)).join('') +
+    '<h4>Grundlage</h4>' + a('#/regeln', 'Regeln und Vorgehen') + a('#/journal', 'Trade-Journal') +
+    `<div class="foot">Seite gebaut am ${esc(SITE.gebaut)}.<br>Neue Firma, Erneuerung oder Termine: sag es Claude.</div>`;
+  $('#nav').classList.remove('open');
+}
+
+// Seiten
+function kpiHtml(f, n){ return '<div class="kpis">' + f.kennzahlen.slice(0, n || 99).map(k => `<div class="kpi" title="${esc(k.hinweis || '')}"><b>${esc(k.v)}</b><span>${esc(k.k)}</span></div>`).join('') + '</div>'; }
+function nextTermin(f){ const up = f.termine.filter(t => days(t.s) >= 0).sort((a,b) => a.s.localeCompare(b.s)); return up[0]; }
+const ARTEN = {Quartal:'Quartalsbericht', Jahr:'Jahresbericht', Dividende:'Dividende', HV:'Hauptversammlung'};
+const isBericht = t => t.art === 'Quartal' || t.art === 'Jahr';
+const allTermine = () => F.flatMap(f => f.termine.map(t => ({...t, f}))).sort((a,b) => a.s.localeCompare(b.s));
+const stChip = t => `<span class="chip ${t.status === 'bestätigt' ? 'ok' : 'w'}">${esc(t.status || 'unbestätigt')}</span>`;
+function pageHome(){
+  const reps = allTermine().filter(t => isBericht(t) && days(t.s) >= -1);
+  let h = `<h1>Invest-Zentrale</h1><p class="sub">Alle Dossiers, Mindmaps und Termine an einem Ort. Zahlen und Quellen stehen in den Berichten; Aussagen sind nach Verlässlichkeit gekennzeichnet.</p>`;
+  const n0 = reps[0];
+  h += `<div class="big"><b>Berichtstermine</b><span>${n0 ? `Nächster Bericht: <b>${esc(n0.f.ticker)}</b>, ${esc(n0.d)} (${esc(rel(n0.s, n0.d))})` : 'Keine kommenden Berichte hinterlegt'}</span><span class="sp"></span><a class="btn pri" href="#/termine">Alle Quartals- und Jahresberichte, chronologisch</a><a class="btn" href="#/netz">Gesamtnetz ansehen</a></div>`;
+  h += '<h2>Als Nächstes (Berichte)</h2><div class="tw"><table><tr><th>Datum</th><th>Firma</th><th>Bericht</th><th>Status</th><th>In</th></tr>' +
+    reps.slice(0, 6).map(t => `<tr><td>${esc(t.d)}</td><td><a href="#/firma/${t.f.ticker}">${esc(t.f.ticker)}</a></td><td>${esc(ARTEN[t.art] || t.art)}</td><td>${stChip(t)}</td><td>${esc(rel(t.s, t.d))}</td></tr>`).join('') + '</table></div>';
+  h += '<h2>Firmen</h2><div class="grid">' + F.map(f => { const n = nextTermin(f);
+    return `<div class="card"><h3>${esc(f.name)}</h3><div><span class="chip t">${esc(f.ticker)}</span><span class="chip">${esc(f.boerse)}</span><span class="chip">${esc(f.typ)}</span></div>
+    ${kpiHtml(f, 4)}<div class="next">${n ? `Nächster Termin: <b>${esc(n.d)}</b> (${esc(rel(n.s, n.d))})` : 'Kein Termin hinterlegt'}<br>Stand: ${esc(fmt(f.stand))}</div>
+    <a class="btn pri" href="#/firma/${f.ticker}">Bericht</a> <a class="btn" href="#/firma/${f.ticker}/mindmap">Mindmap</a></div>`; }).join('') + '</div>';
+  h += '<h2>Watchlist</h2><div class="tw"><table><tr><th>Ticker</th><th>Firma</th><th>Typ</th><th>Warnung bei</th></tr>' +
+    SITE.watchlist.map(w => `<tr><td>${byT[w.Ticker] ? `<a href="#/firma/${esc(w.Ticker)}">${esc(w.Ticker)}</a>` : esc(w.Ticker)}</td><td>${esc(w['Firma'])}</td><td>${esc(w.Typ)}</td><td>${esc(w['Trigger (Warnung bei)'])}</td></tr>`).join('') + '</table></div>';
+  h += `<div class="note"><b>Befehle an Claude:</b> «Neue Firma: …» legt Dossier, Mindmap und Watchlist-Eintrag an und verbindet sie mit den bestehenden Firmen. «Erneuere …» aktualisiert nur auf Zuruf. «Was steht an?» prüft alle Termine. Die Seite wird danach neu gebaut.</div>`;
+  return h;
+}
+let TF = {nur: true, firma: ''};
+function pageTermine(){
+  let all = allTermine();
+  const nB = all.filter(isBericht).length;
+  if (TF.nur) all = all.filter(isBericht);
+  if (TF.firma) all = all.filter(t => t.f.ticker === TF.firma);
+  let rows = '', last = '';
+  const MN = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+  all.forEach(t => { const m = t.s.slice(0, 7);
+    if (m !== last) { last = m; rows += `<tr class="mon"><td colspan="6">${MN[+m.slice(5) - 1]} ${m.slice(0, 4)}</td></tr>`; }
+    rows += `<tr class="${days(t.s) < 0 ? 'past' : ''}"><td>${esc(t.d)}</td><td><a href="#/firma/${t.f.ticker}">${esc(t.f.ticker)}</a></td><td>${esc(ARTEN[t.art] || t.art || '')}</td><td>${stChip(t)}</td><td>${esc(t.t)}${t.ergebnis ? `<span class="erg">Ergebnis: ${esc(t.ergebnis)}</span>` : ''}</td><td>${esc(rel(t.s, t.d))}</td></tr>`; });
+  return `<h1>Berichtstermine</h1><p class="sub">Alle Quartals- und Jahresberichte aller Dossiers in zeitlicher Reihenfolge, vergangene mit Ergebnis. «erwartet» und «laut Datenseite» heisst: nicht von der Firma bestätigt; vor dem Handeln beim Investor-Relations-Bereich prüfen.</p>
+  <div class="bar"><button class="${TF.nur ? 'on' : ''}" data-tf="nur">Nur Quartals- und Jahresberichte (${nB})</button><button class="${TF.nur ? '' : 'on'}" data-tf="alle">Alle Ereignisse (mit Dividenden und Hauptversammlungen)</button>
+  <select id="tfirma"><option value="">Alle Firmen</option>${F.map(f => `<option value="${esc(f.ticker)}" ${TF.firma === f.ticker ? 'selected' : ''}>${esc(f.ticker)}</option>`).join('')}</select></div>
+  <div class="tw"><table><tr><th>Datum</th><th>Firma</th><th>Art</th><th>Status</th><th>Ereignis und Ergebnis</th><th>In</th></tr>${rows || '<tr><td colspan="6">Keine Einträge.</td></tr>'}</table></div>`;
+}
+function bindTermine(){
+  document.querySelectorAll('[data-tf]').forEach(b => b.onclick = () => { TF.nur = b.dataset.tf === 'nur'; route(); });
+  const sel = $('#tfirma'); if (sel) sel.onchange = () => { TF.firma = sel.value; route(); };
+}
+function pageNetz(){
+  const I = SITE.netz_info;
+  return `<h1>Gesamtnetz</h1><p class="sub">Alle Dossiers in einer Karte: Firmen (Mitte) und die Akteure, die in mehreren Dossiers vorkommen. Wächst automatisch mit jeder neuen Firma.</p>
+  <iframe class="frame" id="mm" title="Gesamtnetz"></iframe>
+  <div class="note"><b>Gemeinsame Akteure:</b> ${I.akteure.map(esc).join(', ') || 'keine'}.<br><b>Direkte Verbindungen zwischen Firmen:</b> ${I.verbindungen.map(esc).join('; ') || 'keine'}.<br>Klick auf einen Knoten zeigt Beträge und Quellen; über «Dossier öffnen» geht es zur Firma.</div>`;
+}
+function pageFirma(t, tab){
+  const f = byT[t]; if (!f) return '<h1>Nicht gefunden</h1><p><a href="#/">Zur Übersicht</a></p>';
+  const base = '#/firma/' + t;
+  let h = `<h1>${esc(f.name)}</h1><p class="sub"><span class="chip t">${esc(f.ticker)}</span><span class="chip">${esc(f.boerse)}</span><span class="chip">${esc(f.typ)}</span>Stand ${esc(fmt(f.stand))}</p>${kpiHtml(f)}`;
+  h += `<div class="tabs"><a class="${tab === 'bericht' ? 'on' : ''}" href="${base}">Bericht</a><a class="${tab === 'mindmap' ? 'on' : ''}" href="${base}/mindmap">Mindmap</a><a class="${tab === 'termine' ? 'on' : ''}" href="${base}/termine">Termine</a></div>`;
+  if (tab === 'mindmap') h += `<iframe class="frame" id="mm" title="Mindmap ${esc(f.name)}"></iframe><p class="sub">Knoten ziehen, zoomen, filtern; Klick zeigt Details und Quellen. <button id="mmfull">In eigenem Fenster öffnen</button></p>`;
+  else if (tab === 'termine') h += '<div class="tw"><table><tr><th>Datum</th><th>Ereignis</th><th>In</th></tr>' + f.termine.map(x => `<tr class="${days(x.s) < 0 ? 'past' : ''}"><td>${esc(x.d)}</td><td>${esc(x.t)}</td><td>${esc(rel(x.s, x.d))}</td></tr>`).join('') + '</table></div>';
+  else h += `<div class="report"><div class="doc" id="doc">${f.bericht_html}</div><div class="toc" id="toc"></div></div>`;
+  return h;
+}
+function pageRegeln(){ return `<h1>Regeln und Vorgehen</h1><p class="sub">Die Grundlage für alle Dossiers, deine Risikoregeln und die Papier-Phase.</p><div class="doc" style="max-width:880px">${SITE.regeln_html}</div>`; }
+
+// Journal
+const JK = 'journal.v1';
+const JF = ['Datum','Art','Ticker','Stück','Einstieg','Stop-Loss','Ausstieg','Kosten CHF','Ergebnis netto CHF','Begründung','Lehre'];
+function jLoad(){ try { return JSON.parse(store(JK) || '[]'); } catch(e) { return []; } }
+function jSave(r){ store(JK, JSON.stringify(r)); jWrite(); }
+// Datei im Ordner (File System Access API, nur Chrome/Edge): Handle wird in IndexedDB gemerkt
+const FS_OK = 'showDirectoryPicker' in window;
+let jDir = null, jMsg = '';
+const idb = () => new Promise((res, rej) => { const r = indexedDB.open('invest-zentrale', 1); r.onupgradeneeded = () => r.result.createObjectStore('h'); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); });
+async function idbGet(k){ try { const d = await idb(); return await new Promise(res => { const q = d.transaction('h').objectStore('h').get(k); q.onsuccess = () => res(q.result); q.onerror = () => res(null); }); } catch(e) { return null; } }
+async function idbSet(k, v){ try { const d = await idb(); await new Promise(res => { const t = d.transaction('h', 'readwrite'); t.objectStore('h').put(v, k); t.oncomplete = res; t.onerror = res; }); } catch(e) {} }
+const jq = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+function jCsv(rows){ return '﻿' + JF.join(';') + '\r\n' + rows.map(r => JF.map(k => jq(r[k])).join(';')).join('\r\n') + '\r\n'; }
+function jParse(txt){ txt = txt.replace(/^﻿/, ''); const out = []; let row = [], cur = '', q = false;
+  for (let i = 0; i < txt.length; i++) { const c = txt[i];
+    if (q) { if (c === '"') { if (txt[i+1] === '"') { cur += '"'; i++; } else q = false; } else cur += c; }
+    else if (c === '"') q = true; else if (c === ';') { row.push(cur); cur = ''; }
+    else if (c === '\n' || c === '\r') { if (c === '\r' && txt[i+1] === '\n') i++; row.push(cur); cur = ''; if (row.some(x => x !== '')) out.push(row); row = []; }
+    else cur += c; }
+  if (cur !== '' || row.length) { row.push(cur); out.push(row); }
+  const head = out.shift() || []; return out.map(r => Object.fromEntries(head.map((h, i) => [h, r[i] ?? ''])));
+}
+async function jFile(dir, create){ let d = dir; if (dir.name !== '_journal') d = await dir.getDirectoryHandle('_journal', {create: true}); return d.getFileHandle('papier-journal.csv', {create}); }
+async function jWrite(){ if (!jDir) return false;
+  try { if ((await jDir.queryPermission({mode: 'readwrite'})) !== 'granted' && (await jDir.requestPermission({mode: 'readwrite'})) !== 'granted') { jMsg = 'Zugriff auf den Ordner fehlt. Klicke «Speichern».'; return false; }
+    const fh = await jFile(jDir, true); const w = await fh.createWritable(); await w.write(new Blob([jCsv(jLoad())], {type: 'text/csv;charset=utf-8'})); await w.close();
+    jMsg = 'Gespeichert in «' + jDir.name + '» um ' + new Date().toLocaleTimeString('de-CH'); return true;
+  } catch(e) { jMsg = 'Speichern in den Ordner nicht möglich (' + (e.name || 'Fehler') + '). Die Einträge bleiben im Browser.'; return false; }
+}
+function jDownload(){ const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([jCsv(jLoad())], {type: 'text/csv;charset=utf-8'})); a.download = 'papier-journal.csv'; a.click(); jMsg = 'Datei «papier-journal.csv» heruntergeladen (Ordner «Downloads»).'; }
+async function jConnect(){
+  const dir = await window.showDirectoryPicker({mode: 'readwrite', id: 'invest-journal'}); jDir = dir; await idbSet('dir', dir);
+  try { const fh = await jFile(dir, false); const old = jParse(await (await fh.getFile()).text()); const cur = jLoad(); const keys = new Set(cur.map(r => JSON.stringify(JF.map(k => r[k] ?? ''))));
+    old.forEach(r => { const k = JSON.stringify(JF.map(x => r[x] ?? '')); if (!keys.has(k)) { cur.push(r); keys.add(k); } }); store(JK, JSON.stringify(cur)); } catch(e) {}
+  await jWrite();
+}
+async function jSaveClick(){
+  if (jDir) { await jWrite(); }
+  else if (FS_OK) { try { await jConnect(); } catch(e) { if (e.name === 'AbortError') return; jMsg = 'Ordner konnte nicht verbunden werden (' + (e.name || 'Fehler') + ').'; } }
+  else jDownload();
+  route();
+}
+async function jRestore(){ if (!FS_OK || jDir) return; const h = await idbGet('dir'); if (h) { jDir = h; jMsg = 'Mit Ordner «' + h.name + '» verbunden. Beim ersten Eintrag fragt der Browser einmal nach Erlaubnis.'; if (location.hash === '#/journal') route(); } }
+jRestore();
+function pageJournal(){
+  const rows = jLoad();
+  const opts = F.map(f => `<option>${esc(f.ticker)}</option>`).join('');
+  const sum = a => a.reduce((s, r) => s + (parseFloat(r['Ergebnis netto CHF']) || 0), 0);
+  const stats = art => { const r = rows.filter(x => x.Art === art); const w = r.filter(x => parseFloat(x['Ergebnis netto CHF']) > 0).length;
+    const mon = new Date().toISOString().slice(0, 7); const m = sum(r.filter(x => (x.Datum||'').startsWith(mon)));
+    return {n: r.length, w, tot: sum(r), mon: m}; };
+  const P = stats('Papier'), E = stats('Echt');
+  let alerts = '';
+  if (E.tot <= -300) alerts += '<div class="note alert"><b>Gesamtverlust von 300 CHF erreicht.</b> Regel: Stopp und Ansatz überdenken.</div>';
+  else if (E.mon <= -150) alerts += '<div class="note alert"><b>Monatsverlust von 150 CHF erreicht.</b> Regel: Pause bis zum nächsten Monat.</div>';
+  const line = (n, s) => `<tr><td>${n}</td><td class="num">${s.n}</td><td class="num">${s.n ? Math.round(100 * s.w / s.n) + ' %' : '–'}</td><td class="num ${s.tot < 0 ? 'badc' : 'good'}">${s.tot.toFixed(2)}</td><td class="num ${s.mon < 0 ? 'badc' : 'good'}">${s.mon.toFixed(2)}</td></tr>`;
+  const todayIso = new Date().toISOString().slice(0, 10);
+  return `<h1>Trade-Journal</h1><p class="sub">Übungstrades (Papier) und echte Trades mit Begründung <b>vor</b> dem Einstieg. Einträge bleiben in diesem Browser. Mit «Speichern» legst du zusätzlich die Datei <code>_journal/papier-journal.csv</code> in deinem Invest-Ordner ab (ab dem zweiten Mal automatisch bei jedem Eintrag).</p>${alerts}
+  <div class="tw"><table><tr><th>Art</th><th>Trades</th><th>Trefferquote</th><th>Summe netto CHF</th><th>Dieser Monat CHF</th></tr>${line('Papier', P)}${line('Echt', E)}</table></div>
+  <p class="sub">Regeln: höchstens 30 CHF Risiko pro Trade, Pause bei 150 CHF Monatsverlust, Stopp bei 300 CHF Gesamtverlust. Ziel der Papier-Phase: mindestens 30 Trades, nach allen Kosten klar positiv.</p>
+  <form class="j" id="jf">
+    <label>Datum<input type="date" name="Datum" value="${todayIso}" required></label>
+    <label>Art<select name="Art"><option>Papier</option><option>Echt</option></select></label>
+    <label>Ticker<input name="Ticker" list="tk" required><datalist id="tk">${opts}</datalist></label>
+    <label>Stück<input name="Stück" type="number" step="any"></label>
+    <label>Einstieg<input name="Einstieg" type="number" step="any"></label>
+    <label>Stop-Loss<input name="Stop-Loss" type="number" step="any"></label>
+    <label>Ausstieg<input name="Ausstieg" type="number" step="any"></label>
+    <label>Kosten CHF<input name="Kosten CHF" type="number" step="any"></label>
+    <label>Ergebnis netto CHF<input name="Ergebnis netto CHF" type="number" step="any"></label>
+    <label class="wide">Begründung (vor dem Trade)<textarea name="Begründung" rows="2"></textarea></label>
+    <label class="wide">Lehre<textarea name="Lehre" rows="2"></textarea></label>
+    <div class="wide"><button class="btn pri" type="submit">Eintrag speichern</button> <button type="button" id="jx">${jDir ? 'Jetzt speichern' : FS_OK ? 'Speichern (Ordner wählen)' : 'Speichern (Datei laden)'}</button> <span class="sub" id="jmsg">${esc(jMsg || (FS_OK ? 'Noch kein Ordner verbunden: wähle deinen Invest-Ordner.' : 'Dieser Browser kann nicht direkt in Ordner schreiben (nur Chrome und Edge). Es wird eine Datei heruntergeladen.'))}</span> <button type="button" id="jd">Alle löschen</button></div>
+  </form>
+  <div class="tw"><table><tr>${JF.map(x => `<th>${x}</th>`).join('')}<th></th></tr>${rows.map((r, i) => `<tr>${JF.map(x => `<td>${esc(r[x])}</td>`).join('')}<td><button data-del="${i}">×</button></td></tr>`).reverse().join('') || `<tr><td colspan="${JF.length + 1}" class="sub">Noch keine Einträge.</td></tr>`}</table></div>`;
+}
+function bindJournal(){
+  const f = $('#jf'); if (!f) return;
+  f.onsubmit = async e => { e.preventDefault(); const r = {}; new FormData(f).forEach((v, k) => r[k] = v); const rows = jLoad(); rows.push(r); store(JK, JSON.stringify(rows)); await jWrite(); route(); };
+  document.querySelectorAll('[data-del]').forEach(b => b.onclick = async () => { const rows = jLoad(); rows.splice(+b.dataset.del, 1); store(JK, JSON.stringify(rows)); await jWrite(); route(); });
+  $('#jd').onclick = async () => { if (confirm('Alle Journal-Einträge in diesem Browser löschen? Die Datei im Ordner wird dabei ebenfalls überschrieben.')) { store(JK, '[]'); await jWrite(); route(); } };
+  $('#jx').onclick = jSaveClick;
+}
+
+// Router
+function route(){
+  const h = location.hash || '#/'; const p = h.split('/').filter(Boolean);
+  buildNav(h); let html, after = () => {};
+  if (p[1] === 'termine' && p[0] === '#') { html = pageTermine(); after = bindTermine; }
+  else if (p[1] === 'netz') { html = pageNetz(); after = () => { const fr = $('#mm'); fr.srcdoc = SITE.netz_html; fr.onload = () => fr.contentWindow.postMessage({theme}, '*'); }; }
+  else if (p[1] === 'regeln') html = pageRegeln();
+  else if (p[1] === 'journal') { html = pageJournal(); after = bindJournal; }
+  else if (p[1] === 'firma') { const tab = p[3] || 'bericht'; html = pageFirma(p[2], tab); after = () => afterFirma(p[2], tab); }
+  else html = pageHome();
+  $('#view').innerHTML = html; $('#main').scrollTop = 0; after();
+}
+function afterFirma(t, tab){
+  const f = byT[t]; if (!f) return;
+  if (tab === 'mindmap') { const fr = $('#mm'); fr.srcdoc = f.mindmap_html; fr.onload = () => fr.contentWindow.postMessage({theme}, '*');
+    $('#mmfull').onclick = () => { const w = window.open('', '_blank'); if (w) { w.document.open(); w.document.write(f.mindmap_html); w.document.close(); } }; }
+  else if (tab === 'bericht') {
+    document.querySelectorAll('.doc table').forEach(tb => { const w = document.createElement('div'); w.className = 'tw'; tb.replaceWith(w); w.appendChild(tb); });
+    const hs = [...document.querySelectorAll('#doc h2')];
+    $('#toc').innerHTML = '<b>Inhalt</b>' + hs.map(x => `<a href="#" data-id="${x.id}">${esc(x.textContent)}</a>`).join('');
+    document.querySelectorAll('#toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById(a.dataset.id).scrollIntoView({behavior:'smooth', block:'start'}); });
+  }
+}
+window.addEventListener('message', e => { const g = e.data && e.data.go; if (g && byT[g]) location.hash = '#/firma/' + g; });
+window.addEventListener('hashchange', route);
+applyTheme(); route();
+</script>
+</body>
+</html>

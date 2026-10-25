@@ -1,0 +1,7 @@
+﻿Ticker;Firma;Börse;Typ;Aufgenommen;Nächster Termin;Trigger (Warnung bei);Ordner
+BLK;BlackRock, Inc.;NYSE;Langfrist-Kandidat;2026-10-25;Dividendenerklärung erwartet ca. Nov 2026 | Q4-Zahlen erwartet ca. Mitte Jan 2027 (nicht bestätigt);Rücknahme-Stopp bei weiteren HPS/Private-Credit-Fonds | AUM-Rückgang | Kurs unter 200-Tage-Linie (ca. 1069 USD) | Wechsel an der Konzernspitze;firmen/BLK-BlackRock
+WMT;Walmart Inc.;Nasdaq;Langfrist-Kandidat;2026-10-25;Q3-Zahlen 19.11.2026 (laut MarketScreener) | Ex-Dividende 11.12.2026;Kurs unter 200-Tage-Schnitt (ca. 116 USD) | Q3-Gewinn je Aktie gegen Konsens und Prognose 0,62 bis 0,64 USD | neue Zölle | Verkäufe der Familie Walton;firmen/WMT-Walmart
+OroraTech;OroraTech (München, Satelliten-Waldbrandwarnung);nicht börsennotiert;Start-up (Video-Tipp);25.10.2026;keine Berichtspflicht;Finanzierungsrunde, Börsengang (IPO) oder Übernahme angekündigt;kein Dossier
+Black Semi;Black Semiconductor (Aachen, Chips);nicht börsennotiert;Start-up (Video-Tipp);25.10.2026;keine Berichtspflicht;Finanzierungsrunde, Börsengang (IPO) oder Übernahme angekündigt;kein Dossier
+Proxima;Proxima Fusion (München, Kernfusion);nicht börsennotiert;Start-up (Video-Tipp);25.10.2026;keine Berichtspflicht;Finanzierungsrunde, Börsengang (IPO) oder Übernahme angekündigt;kein Dossier
+AMBOSS;AMBOSS (Berlin, Medizin-Software);nicht börsennotiert;Start-up (Video-Tipp);25.10.2026;keine Berichtspflicht;Finanzierungsrunde, Börsengang (IPO) oder Übernahme angekündigt;kein Dossier
